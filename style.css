@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.color {
+    color: cadetblue;
+}
+
+.flexible-area {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 3%;
+}
+
+.half-width img {
+    width: 50%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(salmon, rgb(255, 88, 88));
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.top-banner {
+    background-image: url(image/bg1.jpg);
+    background-repeat: none;
+}
+
+.color-a {
+    color: chocolate;
+
+}
+
+.dream {
+    background-image: url(image/bg1.jpg);
+    background-repeat: none;
+    background-position: right;
+}
+
+.experience {
+    background-image: url(image/bg1.jpg);
+}
+
+.experience-area {
+    box-shadow: 10px 10px 40px gray;
+    margin: 20px 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.text_align {
+    text-align: justify;
+
+}
+
+#noob-web-dev {
+    border-right: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#pro-web-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, rgb(167, 0, 0));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
